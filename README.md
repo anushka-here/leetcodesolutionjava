@@ -3,4 +3,5 @@
 This repository contains my Java solutions to LeetCode problems.
 
 ## Solved Problems
-- Two Sum (Easy)
+- Two Sum 
+- Add two numbers
