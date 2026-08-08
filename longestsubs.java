@@ -1,7 +1,10 @@
-public class Solution {
+import java.util.HashMap;
+import java.util.Map;
+
+public class longestsubs {
     public int lengthOfLongestSubstring(String s) {
         // Maps a character to its last seen index + 1 (next possible valid left boundary)
-        HashMap<Character, Integer> map = new HashMap<>(); 
+        Map<Character, Integer> map = new HashMap<>(); 
         int maxLength = 0;
         int left = 0;
         

@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-class Solution {
+class easytwosum {
     public int[] twoSum(int[] nums, int target) {
         // Map to store the value and its corresponding index
         Map<Integer, Integer> numMap = new HashMap<>();

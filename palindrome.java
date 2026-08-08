@@ -1,4 +1,4 @@
-class Solution {
+class palindrome {
     public boolean isPalindrome(int x) {
         // Edge cases: negative numbers and numbers ending in 0 (except 0 itself)
         if (x < 0 || (x % 10 == 0 && x != 0)) {

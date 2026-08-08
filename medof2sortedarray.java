@@ -1,4 +1,4 @@
-class Solution {
+class medof2sortedarray {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         // Ensure nums1 is the smaller array to optimize binary search time complexity
         if (nums1.length > nums2.length) {
