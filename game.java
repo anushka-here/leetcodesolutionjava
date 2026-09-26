@@ -3,5 +3,6 @@ public class game {
         System.out.println("Welcome to the Armstrong Number Checker!");
         armstrong.main(args);
     }   
+    System.out.println("Thank you for using the Armstrong Number Checker!");
     
 }
