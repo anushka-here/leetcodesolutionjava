@@ -4,5 +4,13 @@ public class game {
         armstrong.main(args);
     }   
     System.out.println("Thank you for using the Armstrong Number Checker!");
-    
+    while (true) {
+        System.out.println("Do you want to check another number? (yes/no)");
+        Scanner scanner = new Scanner(System.in);
+        String response = scanner.nextLine().trim().toLowerCase();
+        if (!response.equals("yes")) {
+            break;
+        }
+        armstrong.main(args);
+    }
 }
